@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>And Amlak - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          And Amlak
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <a class="topmenu" href="skills">Skills</a>
+          <a class="topmenu" href="project">Projects</a>
+          <a class="topmenu" href="recommendations">Recommendations</a>
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://i.pinimg.com/736x/ef/16/e4/ef16e4e68b0d3cb81e6bb8a8c3258d7e--work-desk-motion-design.jpg" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm And Amlak! <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8B2WrDv3Nq86l_ZyZNMn9RBvRBIId_FkoMw&usqp=CAU" width="60px"/>
+          </h1>
+          <p>
+            I am a front end developer with 3 years of experience of working with differnet programing language.
+            I have also participated on different internship programs related to web development.
+            I am doing different projects related to this front end web development.
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+        <div class="skill">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png">
+             <h6>style.sheet</h6>
+             <p>3 years experience</p>
+        </div>
+             <div class="skill">
+                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/1822px-ISO_C%2B%2B_Logo.svg.png">
+                  <h6>C++</h6>
+                  <p>2 years of experience</p>
+             </div>
+                  <div class="skill">
+                      <img src="https://static.vecteezy.com/system/resources/thumbnails/004/908/013/small/coding-logo-design-template-free-vector.jpg" width="200px"/>
+               <h6>programing language</h6>
+               <p>5 years of experience</p>
+                  </div>
+               <div class="skill">
+                   <img src="https://img.freepik.com/free-vector/creative-gradient-code-logo_23-2148820572.jpg">
+                   <h6>web development</h6>
+                   <p>1 year of experience</p>
+                      <!-- Add more skills here -->
+
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+<div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Github Explorer</h3>
+            <ul>
+              <li>Developed a Github Explorer, which fetch the details of the GitHub user just by entering his/her username using JavaScript and API.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Online Code Editor</h3>
+            <ul>
+              <li>autocomplete, syntax highlighting, indentation, and other shortcuts using HTML, CSS, ReactJS, Hosting Services.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>To do List App</h3>
+            <ul>
+              <li>Make it fast to add and organize tasks. Ideally, a task is added and categorized in a couple taps or keystroke susing HTML, CSS, JavaScript.</li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          And Amlak is a highly skilled web developer with a keen eye for detail.
+          His expertise in front-end development and ability to deliver
+           clean and efficient code make him an invaluable asset to any project.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          And Amlak is an exceptional problem solver who excels in back-end development. His strong analytical skills and proficiency in various programming languages make him a reliable and efficient member of any web development team.
+        <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          And Amlak's combination of quick learning, positive attitude, teamwork, curiosity, and initiative positions his as a valuable member of any web development project. His potential to lead a team is evident, and he continually strives to contribute to the success of his colleagues and the project as a whole.
+          <span >&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>thankyou for your reccomendation!!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
